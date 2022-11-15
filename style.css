@@ -1,0 +1,148 @@
+body{
+	background-color: rgb(242, 224, 243) ;
+	color: rgb(50, 50, 50);
+	font-family: 'Lora', serif;
+	font-family: 17px;
+}
+
+h1, h2 {
+	font-family: 'Archivo', sans-serif;
+	color: rgb(172, 51, 136);
+}
+h1{
+	color: rgb(77, 80, 80);
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2{
+	font-weight: 300;
+	font-size: 20px;
+}
+
+
+
+a {
+	font-family: 'Archivo', sans-serif;;
+	text-decoration: none;
+	color: rgb(173, 27, 114);
+	font-weight: bold;
+	font-size: 16px;
+}
+a:hover {
+	color: black;
+}
+
+
+
+#content{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	#content {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	#content {
+		width: 400px;
+	}
+}
+
+
+#First{
+	background: white;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+#Second{
+	background: white ;
+	padding: 10px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+#thrid{
+	background: white ;
+	padding: 10px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+#forth{
+	background: white ;
+	padding: 10px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+#fifth{
+	background: white ;
+	padding: 10px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: rgb(173, 27, 114) ;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 35px;
+	color: rgb(231, 182, 216);
+}
+.list-inline i:hover {
+	color: rgb(50, 50, 50);
+}
+
+.introduction p {
+	margin-bottom: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
